@@ -5,7 +5,7 @@ public class Runner {
         int z = 5;
         System.out.println("x: " + x + ", y: " + y + ", z: " + z);
 
-        while ((y != 0) && (x / y >= 0)) {
+        while ((x / y >= 0) && (y != 0)) {
             x += 2;
             y -= 2;
             if (x % z != 0) {
